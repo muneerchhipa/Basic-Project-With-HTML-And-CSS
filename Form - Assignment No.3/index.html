@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="reg-form">
+        <h1>Registration Form</h1>
+
+        <table border="3px" class="tab-info">
+
+            <form action="submit.html">
+                <tr>
+                    <th>
+                        <p>Enter Your First Name</p>
+                    </th>
+                    <td> <input required type="text" name="First name" placeholder="Enter Your First Name"></td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <p>Enter Your Last Name</p>
+                    </th>
+                    <td> <input required type="text" name="last name"></td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <p>Enter Your Password</p>
+                    </th>
+                    <td> <input required type="password" name="password"></td>
+                </tr>
+
+                <tr>
+
+                    <th>
+                        <p>Enter Your Re-Password</p>
+                    </th>
+                    <td> <input required type="password" name="password"></td>
+                </tr>
+
+                <tr>
+
+                    <th>
+                        <p>Enter Your E-mail</p>
+                    </th>
+                    <td> <input required type="email" name="email"></td>
+                </tr>
+
+                <tr>
+
+                    <th>
+                        <p>Enter Your Mobile Number</p>
+                    </th>
+                    <td> <input required type="tel" name="tel"></td>
+                </tr>
+
+                <tr>
+
+                    <th>
+                        <p>Enter Your Address </p>
+                    </th>
+                    <td> <textarea name="address" id="" cols="30" rows="10"></textarea></td>
+                </tr>
+
+                <tr>
+
+                    <th>
+                        <p>Select Your Gender</p>
+                    </th>
+                    <td> <label for="male">Male</label>
+                        <input  type="radio" name="gender" id="male">
+                        <label for="female">female</label>
+                        <input  type="radio" name="gender" id="female">
+                    </td>
+                </tr>
+
+
+                <tr>
+
+                    <th>
+                        <p>Select the Sports you love</p>
+                    </th>
+                    <td> <label for="Cricket">Cricket</label>
+
+                        <input type="checkbox" name="sports" id="Cricket">
+                        <label for="Football">Football</label>
+                        <input  type="checkbox" name="sports" id="Football">
+                        <label for="Hockey">Hockey</label>
+                        <input  type="checkbox" name="sports" id="Hockey">
+                    </td>
+                </tr>
+
+                <tr>
+
+                    <th>
+                        <p>Select Your Date Of Birth</p>
+                    </th>
+                    <td> <input required type="date" name="DOB"></td>
+                </tr>
+
+                <tr>
+
+                    <th>
+                        <p>Select Your Country</p>
+                    </th>
+                    <td> <select name="Country" id="Country">
+                            <option disabled selected value="select">Select Your Country</option>
+                            <option value="Pakistan">Pakistan</option>
+                            <option value="Canada">Canada</option>
+                            <option value="Westindies">Westindies</option>
+                        </select></td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <p>Upload Image</p>
+                    </th>
+                    <td> <input type="file" name="file"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="2" class="btn">
+                        <button type="submit">Register</button>
+
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+
+
+            </form>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+.main {
+    display: flex;
+}
+
+.right {
+    padding-left: 20px;
+    padding-right: 20px;
+    /* background-color: rgb(191, 188, 188); */
+    width: 65%;
+}
+
+.left {
+    border-radius: 2%;
+    background-color: rgb(10, 10, 40);
+    color: white;
+    width: 35%;
+}
+
+.my-img {
+    padding-left: 105px;
+    padding-top: 60px;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.my-info {
+    padding-left: 60px;
+}
+
+.down {
+    padding-top: 40px;
+    border-radius: 2%;
+    background-color: rgb(104, 104, 129);
+    padding-left: 60px;
+    height: 555px;
+}
+
+.name {
+    padding-top: 40px;
+    padding-left: 30px;
+    height: 150px;
+    border-radius: 3%;
+    background-color: rgb(255, 187, 0);
+}
+
+.about-me {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+h2 {
+
+    padding-bottom: 30px;
+    border-bottom: 2px solid black;
+}
+
+h3 {
+    font-size: 25px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(255, 187, 0);
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.work-exp {
+
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.work-exp-main {
+    display: flex;
+    padding-left: 20px;
+}
+
+.work-exp-main .work-exp-left {
+    width: 20%;
+}
+
+.work-exp-main .work-exp-right {
+    width: 80%;
+}
+
+.soft-skills {
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.soft-skills-main {
+    display: flex;
+    padding-left: 170px;
+}
+
+.soft-skills-main .soft-skills-left {
+    width: 50%;
+}
+
+.soft-skills-main .soft-skills-right {
+    width: 50%;
+}
